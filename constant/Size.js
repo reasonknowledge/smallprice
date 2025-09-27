@@ -1,0 +1,199 @@
+import { Dimensions } from "react-native";
+
+// Couleur et tailles fixes
+export const BORDER_COLOR_GRAY = "#D1D5DB";
+export const BORDER_SIZE = 0.5;
+export const BORDER_RADIUS_05 = 5;
+export const BORDER_RADIUS_04 = 4;
+export const BORDER_RADIUS_06 = 6;
+export const BORDER_RADIUS_10 = 10;
+export const BORDER_RADIUS_12 = 12;
+export const BORDER_RADIUS_14 = 14;
+export const BORDER_RADIUS_16 = 16;
+export const BORDER_RADIUS_20 = 20;
+
+// Dimensions de l'écran
+const { width: SCREEN_WIDTH, height: SCREEN_HEIGHT } = Dimensions.get("window");
+
+// Largeurs proportionnelles
+export const WIDTH_FULL = SCREEN_WIDTH;
+export const WIDTH_HALF = SCREEN_WIDTH / 2; // 1/2
+export const WIDTH_THIRD = SCREEN_WIDTH / 3; // 1/3
+export const WIDTH_QUARTER = SCREEN_WIDTH / 4; // 1/4
+export const WIDTH_THREE_QUARTERS = (SCREEN_WIDTH * 3) / 4; // 3/4
+export const WIDTH_FIFTH = SCREEN_WIDTH / 5; // 1/5
+export const WIDTH_TWO_THIRDS = (SCREEN_WIDTH * 2) / 3; // 2/3
+export const WIDTH_THREE_FIFTHS = (SCREEN_WIDTH * 3) / 5; // 3/5
+export const WIDTH_FOUR_FIFTHS = (SCREEN_WIDTH * 4) / 5; // 4/5 de la largeur
+export const WIDTH_TWO_FIFTHS = (SCREEN_WIDTH * 2) / 5; // 2/5 de la largeur
+export const WIDTH_ONE_FIFTH = SCREEN_WIDTH / 5; // 1/5 de la largeur
+
+// Hauteurs proportionnelles
+export const HEIGHT_FULL = SCREEN_HEIGHT;
+export const HEIGHT_HALF = SCREEN_HEIGHT / 2; // 1/2
+export const HEIGHT_THIRD = SCREEN_HEIGHT / 3; // 1/3
+export const HEIGHT_QUARTER = SCREEN_HEIGHT / 4; // 1/4
+export const HEIGHT_THREE_QUARTERS = (SCREEN_HEIGHT * 3) / 4; // 3/4
+export const HEIGHT_FIFTH = SCREEN_HEIGHT / 5; // 1/5
+export const HEIGHT_TWO_THIRDS = (SCREEN_HEIGHT * 2) / 3; // 2/3
+export const HEIGHT_THREE_FIFTHS = (SCREEN_HEIGHT * 3) / 5; // 3/5
+export const HEIGHT_FOUR_FIFTHS = (SCREEN_HEIGHT * 4) / 5; // 4/5 de la hauteur
+
+// Paddings (comme TailwindCSS)
+export const PADDING_0 = 0;
+export const PADDING_1 = 4; // Tailwind uses 0.25rem (4px)
+export const PADDING_2 = 8; // 0.5rem (8px)
+export const PADDING_3 = 12; // 0.75rem (12px)
+export const PADDING_4 = 16; // 1rem (16px)
+export const PADDING_5 = 20; // 1.25rem (20px)
+export const PADDING_6 = 24; // 1.5rem (24px)
+export const PADDING_8 = 32; // 2rem (32px)
+export const PADDING_10 = 40; // 2.5rem (40px)
+export const PADDING_12 = 48; // 3rem (48px)
+export const PADDING_14 = 56; // 3.5rem (56px)
+export const PADDING_16 = 64; // 4rem (64px)
+export const PADDING_20 = 80; // 5rem (80px)
+export const PADDING_24 = 96; // 6rem (96px)
+export const PADDING_32 = 128; // 8rem (128px)
+export const PADDING_40 = 160; // 10rem (160px)
+export const PADDING_48 = 192; // 12rem (192px)
+export const PADDING_56 = 224; // 14rem (224px)
+export const PADDING_64 = 256; // 16rem (256px)
+
+export const PADDING_HORIZONTAL_0 = 0;
+export const PADDING_HORIZONTAL_1 = 4;
+export const PADDING_HORIZONTAL_2 = 8;
+export const PADDING_HORIZONTAL_3 = 12;
+export const PADDING_HORIZONTAL_4 = 16;
+export const PADDING_HORIZONTAL_5 = 20;
+export const PADDING_HORIZONTAL_6 = 24;
+export const PADDING_HORIZONTAL_8 = 32;
+export const PADDING_HORIZONTAL_10 = 40; // 2.5rem (40px)
+export const PADDING_HORIZONTAL_12 = 48;
+export const PADDING_HORIZONTAL_14 = 56; // 3.5rem (56px)
+export const PADDING_HORIZONTAL_16 = 64;
+export const PADDING_HORIZONTAL_20 = 80;
+export const PADDING_HORIZONTAL_24 = 96;
+export const PADDING_HORIZONTAL_32 = 128;
+export const PADDING_HORIZONTAL_40 = 160;
+export const PADDING_HORIZONTAL_48 = 192;
+export const PADDING_HORIZONTAL_56 = 224;
+export const PADDING_HORIZONTAL_64 = 256;
+
+export const PADDING_VERTICAL_0 = 0;
+export const PADDING_VERTICAL_1 = 4;
+export const PADDING_VERTICAL_2 = 8;
+export const PADDING_VERTICAL_3 = 12;
+export const PADDING_VERTICAL_4 = 16;
+export const PADDING_VERTICAL_5 = 20;
+export const PADDING_VERTICAL_6 = 24;
+export const PADDING_VERTICAL_8 = 32;
+export const PADDING_VERTICAL_10 = 40; // 2.5rem (40px)
+export const PADDING_VERTICAL_12 = 48;
+export const PADDING_VERTICAL_14 = 56; // 3.5rem (56px)
+export const PADDING_VERTICAL_16 = 64;
+export const PADDING_VERTICAL_20 = 80;
+export const PADDING_VERTICAL_24 = 96;
+export const PADDING_VERTICAL_32 = 128;
+export const PADDING_VERTICAL_40 = 160;
+export const PADDING_VERTICAL_48 = 192;
+export const PADDING_VERTICAL_56 = 224;
+export const PADDING_VERTICAL_64 = 256;
+
+// Margins (comme TailwindCSS)
+export const MARGIN_0 = 0;
+export const MARGIN_1 = 4; // Tailwind uses 0.25rem (4px)
+export const MARGIN_2 = 8; // 0.5rem (8px)
+export const MARGIN_3 = 12; // 0.75rem (12px)
+export const MARGIN_4 = 16; // 1rem (16px)
+export const MARGIN_5 = 20; // 1.25rem (20px)
+export const MARGIN_6 = 24; // 1.5rem (24px)
+export const MARGIN_8 = 32; // 2rem (32px)
+export const MARGIN_10 = 40; // 2.5rem (40px)
+export const MARGIN_12 = 48; // 3rem (48px)
+export const MARGIN_14 = 56; // 3.5rem (56px)
+export const MARGIN_16 = 64; // 4rem (64px)
+export const MARGIN_20 = 80; // 5rem (80px)
+export const MARGIN_24 = 96; // 6rem (96px)
+export const MARGIN_32 = 128; // 8rem (128px)
+export const MARGIN_40 = 160; // 10rem (160px)
+export const MARGIN_48 = 192; // 12rem (192px)
+export const MARGIN_56 = 224; // 14rem (224px)
+export const MARGIN_64 = 256; // 16rem (256px)
+
+export const MARGIN_HORIZONTAL_0 = 0;
+export const MARGIN_HORIZONTAL_1 = 4;
+export const MARGIN_HORIZONTAL_2 = 8;
+export const MARGIN_HORIZONTAL_3 = 12;
+export const MARGIN_HORIZONTAL_4 = 16;
+export const MARGIN_HORIZONTAL_5 = 20;
+export const MARGIN_HORIZONTAL_6 = 24;
+export const MARGIN_HORIZONTAL_8 = 32;
+export const MARGIN_HORIZONTAL_10 = 40; // 2.5rem (40px)
+export const MARGIN_HORIZONTAL_12 = 48;
+export const MARGIN_HORIZONTAL_14 = 56; // 3.5rem (56px)
+export const MARGIN_HORIZONTAL_16 = 64;
+export const MARGIN_HORIZONTAL_20 = 80;
+export const MARGIN_HORIZONTAL_24 = 96;
+export const MARGIN_HORIZONTAL_32 = 128;
+export const MARGIN_HORIZONTAL_40 = 160;
+export const MARGIN_HORIZONTAL_48 = 192;
+export const MARGIN_HORIZONTAL_56 = 224;
+export const MARGIN_HORIZONTAL_64 = 256;
+
+export const MARGIN_VERTICAL_0 = 0;
+export const MARGIN_VERTICAL_1 = 4;
+export const MARGIN_VERTICAL_2 = 8;
+export const MARGIN_VERTICAL_3 = 12;
+export const MARGIN_VERTICAL_4 = 16;
+export const MARGIN_VERTICAL_5 = 20;
+export const MARGIN_VERTICAL_6 = 24;
+export const MARGIN_VERTICAL_8 = 32;
+export const MARGIN_VERTICAL_10 = 40; // 2.5rem (40px)
+export const MARGIN_VERTICAL_12 = 48;
+export const MARGIN_VERTICAL_14 = 56; // 3.5rem (56px)
+export const MARGIN_VERTICAL_16 = 64;
+export const MARGIN_VERTICAL_20 = 80;
+export const MARGIN_VERTICAL_24 = 96;
+export const MARGIN_VERTICAL_32 = 128;
+export const MARGIN_VERTICAL_40 = 160;
+export const MARGIN_VERTICAL_48 = 192;
+export const MARGIN_VERTICAL_56 = 224;
+export const MARGIN_VERTICAL_64 = 256;
+
+// Sizes (comme TailwindCSS)
+export const SIZE_0 = 0;
+export const SIZE_PX = 1; // 1px
+export const SIZE_05 = 2; // 0.125rem (2px)
+export const SIZE_1 = 4; // 0.25rem (4px)
+export const SIZE_1_5 = 6; // 0.375rem (6px)
+export const SIZE_2 = 8; // 0.5rem (8px)
+export const SIZE_2_5 = 10; // 0.625rem (10px)
+export const SIZE_3 = 12; // 0.75rem (12px)
+export const SIZE_3_5 = 14; // 0.875rem (14px)
+export const SIZE_4 = 16; // 1rem (16px)
+export const SIZE_5 = 20; // 1.25rem (20px)
+export const SIZE_6 = 24; // 1.5rem (24px)
+export const SIZE_7 = 28; // 1.75rem (28px)
+export const SIZE_8 = 32; // 2rem (32px)
+export const SIZE_9 = 36; // 2.25rem (36px)
+export const SIZE_10 = 40; // 2.5rem (40px)
+export const SIZE_11 = 44; // 2.75rem (44px)
+export const SIZE_12 = 48; // 3rem (48px)
+export const SIZE_14 = 56; // 3.5rem (56px)
+export const SIZE_16 = 64; // 4rem (64px)
+export const SIZE_20 = 80; // 5rem (80px)
+export const SIZE_24 = 96; // 6rem (96px)
+export const SIZE_28 = 112; // 7rem (112px)
+export const SIZE_32 = 128; // 8rem (128px)
+export const SIZE_36 = 144; // 9rem (144px)
+export const SIZE_40 = 160; // 10rem (160px)
+export const SIZE_44 = 176; // 11rem (176px)
+export const SIZE_48 = 192; // 12rem (192px)
+export const SIZE_52 = 208; // 13rem (208px)
+export const SIZE_56 = 224; // 14rem (224px)
+export const SIZE_60 = 240; // 15rem (240px)
+export const SIZE_64 = 256; // 16rem (256px)
+export const SIZE_72 = 288; // 18rem (288px)
+export const SIZE_80 = 320; // 20rem (320px)
+export const SIZE_96 = 384; // 24rem (384px)
